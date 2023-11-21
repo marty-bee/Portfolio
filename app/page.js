@@ -7,13 +7,14 @@ const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand', 
 
 // component imports
 import Titler from './_components/title'
+import Navbar from './_components/navbar';
 
 export default function Home() {
   return (
     <>
-    <nav>Nav</nav>
-    <main className={`${quicksand.variable} font-sans flex min-h-screen flex-col items-center justify-between p-24`}>
-      < Titler />
+    <main className={`${quicksand.variable} font-sans`}>
+    < Navbar />
+    < Titler />
     </main>
     <footer>footer</footer>
     </>
