@@ -9,6 +9,7 @@ const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand', 
 import Titler from './_components/title';
 import Navbar from './_components/navbar';
 import Footer from './_components/footer';
+import ProjectBox from './_components/projectBox';
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
     <main className={`${quicksand.variable} font-sans`}>
     < Navbar />
     < Titler />
-    {/* < ProjectBox /> */}
+    < ProjectBox />
     {/* < Toolbox /> */}
     {/* < AboutMe /> */}
     < Footer />
