@@ -1,20 +1,27 @@
 // import block
-
-import ProjectCard from "./projectCard";
+import ProjectCard from "./projectCard"; // project card component
+import { uuid } from "uuidv4";// uuid to create unique keys's for each project card (react requirement to track the DOM)
 
 // This component holds all of the project cards, allows the page to scale as more projects get added to the portfolio
 
 // state is used to generate the cards
-export default function ProjectBox(){
+export default function ProjectBox({projectsArray}){
 
     // project card generation
 
     // Return component
     return (
         <>
-        <div id='ProjectContainer' className="flex flex-col items-center ml-20 mr-20 pt-10">
-            {/* < ProjectCard /> */}
-            < ProjectCard />
+        <div id='ProjectContainer' className="flex flex-col items-center pl-40 pr-40 pt-10">
+            {/* < ProjectCard generation from a map /> */}
+            {projectsArray.map((currentProject) => {
+                // logging the card being created
+                console.log(`creating card for ${currentProject.title} project`)
+                // creating the card
+                return (
+                    <ProjectCard key={uuid()} projectObj={currentProject} />
+                )
+            })}
 
         </div>
         </>

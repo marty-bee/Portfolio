@@ -11,13 +11,16 @@ import Navbar from './_components/navbar';
 import Footer from './_components/footer';
 import ProjectBox from './_components/projectBox';
 
+// data import
+import { projectsData } from "./projectData/projectCardData.js";    // array of project objects
+
 export default function Home() {
   return (
     <>
     <main className={`${quicksand.variable} font-sans`}>
     < Navbar />
     < Titler />
-    < ProjectBox />
+    < ProjectBox projectsArray={projectsData} />
     {/* < Toolbox /> */}
     {/* < AboutMe /> */}
     < Footer />

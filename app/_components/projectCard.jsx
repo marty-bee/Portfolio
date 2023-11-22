@@ -5,10 +5,10 @@ import Image from "next/image"
 
 // This component is to be generated for each project card
 
-export default function ProjectCard(projectObj) {
+export default function ProjectCard({projectObj}) {
 
     // deconstruct object to use in the card - default values included for ease of debugging
-    const {image = '/images/test_image_with_good_boy.jpg', imageAlt = 'Good boy test image', projectTitle ='test title', projectDescription = 'test description, buy my a lifetimes supply of tunnocks please', gitHubLink, liveLink} = projectObj
+    const {image, imageAlt = 'Good boy test image', projectTitle ='test title', projectDescription = 'test description, buy my a lifetimes supply of tunnocks please', gitHubLink, liveLink} = projectObj
 
 
     const handleGitHubButtonClick = () => {
