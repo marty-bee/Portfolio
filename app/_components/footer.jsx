@@ -7,6 +7,6 @@ export default function Footer() {
 
     // return block
     return (
-        <h1 className="text-6xl font-sans font-bold text-center mt-44 mb-20">Get in touch</h1>
+        <h1 className="text-6xl font-sans font-bold text-center mt-20 mb-20">Get in touch</h1>
     )
 }
