@@ -10,6 +10,7 @@ import Titler from './_components/title';
 import Navbar from './_components/navbar';
 import Footer from './_components/footer';
 import ProjectBox from './_components/projectBox';
+import Toolbox from './_components/toolbox';
 
 // data import
 import { projectsData } from "./projectData/projectCardData.js";    // array of project objects
@@ -21,7 +22,7 @@ export default function Home() {
     < Navbar />
     < Titler />
     < ProjectBox projectsArray={projectsData} />
-    {/* < Toolbox /> */}
+    < Toolbox  />
     {/* < AboutMe /> */}
     < Footer />
     </main>

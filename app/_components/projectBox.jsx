@@ -15,8 +15,6 @@ export default function ProjectBox({projectsArray}){
         <div id='ProjectContainer' className="flex flex-col items-center pl-40 pr-40 pt-10">
             {/* < ProjectCard generation from a map /> */}
             {projectsArray.map((currentProject) => {
-                // logging the card being created
-                console.log(`creating card for ${currentProject.title} project`)
                 // creating the card
                 return (
                     <ProjectCard key={uuid()} projectObj={currentProject} />
