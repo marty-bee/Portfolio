@@ -1,28 +1,49 @@
 // import block
-import ProjectCard from "./projectCard"; // project card component
-import { uuid } from "uuidv4";// uuid to create unique keys's for each project card (react requirement to track the DOM)
+
 
 // This component holds all of the toolbox icons, allows the page to scale as more tools get added to the portfolio
 
 // state is used to generate the cards
-export default function Toolbox({toolsArray}){
+export default function Toolbox(){
 
     // Return component
     return (
         <>
+        <div id='toolboxContainer' className="flex flex-col items-center pl-40 pr-40 w-full">
+            <h1 className="text-6xl font-sans font-bold text-center mt-20 pb-4">Toolbox</h1>
         {/* defining the styling and the grid layout rows alternate between 4 and 5 items starting at row 1 with 4 */}
-        <div id='toolboxContainer' className="flex flex-col items-center pl-40 pr-40 pt-10">
-            <h1 className="text-6xl font-sans font-bold text-center mt-20">Toolbox</h1>
-            {/* < toolIcon generation from a map /> */}
-            {/* {projectsArray.map((currentTool) => { */}
-                {/* // creating the icon */}
-                {/* return ( */}
-                    {/* <toolIcon key={uuid()} tool={currentTool} /> */}
-                {/* ) */}
-            {/* })} */}
 
+            <div id='row1' className="flex justify-between w-full text-center p-3 text-xl font-sans font-bold">
+                <p className='p-3 w-48 h-auto bg-pink-300 rounded-full' >JavaScript</p>
+                <p className='p-3 w-48 h-auto bg-pink-300 rounded-full' >HTML</p>
+                <p className='p-3 w-48 h-auto bg-pink-300 rounded-full' >CSS</p>
+                <p className='p-3 w-48 h-auto bg-pink-300 rounded-full' >Node</p>
+                <p className='p-3 w-48 h-auto bg-pink-300 rounded-full' >TypeScript</p>
+            </div>
+
+            <div id='row2' className="flex justify-between w-full text-center p-3 pl-24 pr-24 text-xl font-sans font-bold">
+                <p className='p-3 w-48 h-auto bg-blue-300 rounded-full' >React</p>
+                <p className='p-3 w-48 h-auto bg-blue-300 rounded-full' >NextJS</p>
+                <p className='p-3 w-48 h-auto bg-blue-300 rounded-full' >Tailwind</p>
+                <p className='p-3 w-48 h-auto bg-blue-300 rounded-full' >PostgreSQL</p>
+            </div>
+
+            <div id='row3' className="flex justify-between w-full text-center p-3 text-xl font-sans font-bold">
+                <p className='p-3 w-48 h-auto bg-orange-300 rounded-full' >SQL</p>
+                <p className='p-3 w-48 h-auto bg-orange-300 rounded-full' >Netlify</p>
+                <p className='p-3 w-48 h-auto bg-orange-300 rounded-full' >PlayWright</p>
+                <p className='p-3 w-48 h-auto bg-orange-300 rounded-full' >Vitest</p>
+                <p className='p-3 w-48 h-auto bg-orange-300 rounded-full' >REST API</p>
+            </div>
+
+            <div id='row4' className="flex justify-between w-full text-center p-3 pl-24 pr-24 text-xl font-sans font-bold">
+                <p className='p-3 w-48 h-auto bg-yellow-400 rounded-full' >Figma</p>
+                <p className='p-3 w-48 h-auto bg-yellow-400 rounded-full' >Git</p>
+                <p className='p-3 w-48 h-auto bg-yellow-400 rounded-full' >GitHub</p>
+                <p className='p-3 w-48 h-auto bg-yellow-400 rounded-full' >Express</p>
+            </div>
         </div>
-        </>
+    </>
     )
 
 }

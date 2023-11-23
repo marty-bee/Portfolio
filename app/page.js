@@ -14,6 +14,7 @@ import Toolbox from './_components/toolbox';
 
 // data import
 import { projectsData } from "./projectData/projectCardData.js";    // array of project objects
+import { toolBoxData } from './projectData/toolBoxData' // array of tools
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
     < Navbar />
     < Titler />
     < ProjectBox projectsArray={projectsData} />
-    < Toolbox  />
+    < Toolbox />
     {/* < AboutMe /> */}
     < Footer />
     </main>
