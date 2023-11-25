@@ -10,7 +10,7 @@ export default function Toolbox(){
     return (
         <>
         <div id='toolboxContainer' className="flex flex-col items-center w-full">
-            <h1 className="text-6xl font-sans font-bold text-center mt-20 pb-4">Toolbox</h1>
+            <h1 className="text-3xl sm:text-6xl font-sans font-bold text-center mt-20 pb-4">Toolbox</h1>
         {/* defining the styling and the grid layout rows alternate between 4 and 5 items starting at row 1 with 4 */}
 
             <div id='row1' className="flex justify-between w-full text-center p-1 sm:p-3  text-sm sm:text-xl font-sans font-bold">

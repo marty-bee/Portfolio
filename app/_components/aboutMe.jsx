@@ -10,10 +10,10 @@ export default function AboutMe() {
     // Return box
     return (
         <>
-            <h1 className="text-6xl font-sans font-bold text-center mt-20 pb-4">About me</h1>
+            <h1 className="text-3xl sm:text-6xl font-sans font-bold text-center mt-20 pb-4">About me</h1>
             <div className="flex flex-row">
                 {/* <Image src='/images/me.jpg' alt='Me and my dog Natsu' height={250} width={300} quality={75} className="relative object-cover rounded-3xl pr-4"/> */}
-            <div className="font-sans text-base columns-2 gap-4 justify-normal">
+            <div className="text-sm sm:text-base font-sans sm:columns-2 sm:gap-4 justify-normal">
                 <p>
                 Hi, I'm Martyn, a passionate creator of all things. Originally, my dream was to become a chef, finding joy in crafting things that bring happiness, like cakes.
                 </p>
