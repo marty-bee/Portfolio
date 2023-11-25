@@ -27,7 +27,7 @@ export default function ProjectCard({projectObj}) {
     return (
         // currently hard coded values for testing, will change to state inputs when ready
         // box for the exterior of the card
-        <div className="w-full h-96 rounded-3xl border-black border-2 box-border p-4 flex flex-row mb-8">
+        <div className="w-full h-60 sm:h-96 rounded-3xl border-black border-2 box-border p-4 flex flex-row mb-8">
             {/* project image and a parent container so the images can always user 'cover' at normal aspect ratio */}
             <div className="overflow-hidden h-full w-1/2 relative box-border rounded-2xl">
                 <Image src={image} alt={imageAlt} fill={true} className="object-cover w-10 h-10"/>
@@ -36,20 +36,20 @@ export default function ProjectCard({projectObj}) {
             <div className="w-1/2 p-4 flex flex-col justify-center">
                 <div className="m-auto">
                     {/* card title */}
-                    <h2 className="font-sans text-4xl font-bold">{projectTitle}</h2>
+                    <h2 className="font-sans text-lg sm:text-4xl font-bold">{projectTitle}</h2>
                     {/* card description */}
-                    <p className="font-sans text-xl">{projectDescription}</p>
+                    <p className="font-sans text-sm sm:text-xl">{projectDescription}</p>
                 </div>
                 {/* button holder */}
                 <div className="flex">
                     {/* github button */}
                     <button  onClick={handleGitHubButtonClick} className="pr-4 mr-1">
-                        <div className="relative h-10 w-10">
+                        <div className="relative h-6 w-6 sm:h-10 sm:w-10">
                         <Image src='/images/github_logos/github-mark.svg' alt='github logo' fill={true} />
                         </div>
                     </button>
                     {/* try it here button */}
-                    <button onClick={handleLiveLinkButtonClick} className="h-10 font-sans text-lg justify-center align-middle pl-2 pr-2 bg-slate-400 rounded-lg">See it live</button>
+                    <button onClick={handleLiveLinkButtonClick} className="h-6 sm:h-10 font-sans text-xs sm:text-lg justify-center align-middle pl-1 pr-1 sm:pl-2 sm:pr-2 bg-slate-400 rounded-lg">Live link</button>
                 </div>
             </div>
         </div>
