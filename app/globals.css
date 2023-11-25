@@ -7,7 +7,7 @@
   --background-start-rgb: #D9D9D9;
   --background-end-rgb: #D9D9D9;
 }
-
+/* set to prefers-color-scheme: dark to make it follow user system settings */
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: #D9D9D9;
