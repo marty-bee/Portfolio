@@ -11,7 +11,7 @@ export default function AboutMe() {
     return (
         <>
             <h1 className="text-6xl font-sans font-bold text-center mt-20 pb-4">About me</h1>
-            <div className="pl-40 pr-40 flex flex-row">
+            <div className="flex flex-row">
                 {/* <Image src='/images/me.jpg' alt='Me and my dog Natsu' height={250} width={300} quality={75} className="relative object-cover rounded-3xl pr-4"/> */}
             <div className="font-sans text-base columns-2 gap-4 justify-normal">
                 <p>
@@ -25,7 +25,7 @@ export default function AboutMe() {
                 </p>
                 <br />
                 <p>
-                It was during this journey that I discovered my true passion lies in the act of making. Development and coding scratch that itch for me. I thrive on lifelong learning and have a deep-seated passion for technology.
+                It was during this journey that I discovered my true passion lies in the act of making. Development and coding scratches that itch for me. I thrive on lifelong learning and have a deep-seated passion for technology.
                 </p>
                 <br />
                 <p>

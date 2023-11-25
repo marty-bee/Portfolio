@@ -12,7 +12,7 @@ export default function ProjectBox({projectsArray}){
     // Return component
     return (
         <>
-        <div id='ProjectContainer' className="flex flex-col items-center pl-40 pr-40 pt-10">
+        <div id='ProjectContainer' className="flex flex-col items-center pt-10">
             {/* < ProjectCard generation from a map /> */}
             {projectsArray.map((currentProject) => {
                 // creating the card

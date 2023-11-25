@@ -1,0 +1,12 @@
+{
+  "forms": {
+    "contact": {
+      "name": "Say-Hey-Form",
+      "fields": {
+        "email": { "type": "email", "required": true },
+        "message": { "type": "text", "required": true }
+      },
+      "actions": [{ "type": "email", "to": "martynandrewbillings@gmail.com" }]
+    }
+  }
+}

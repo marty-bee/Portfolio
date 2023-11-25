@@ -9,7 +9,7 @@ export default function Toolbox(){
     // Return component
     return (
         <>
-        <div id='toolboxContainer' className="flex flex-col items-center pl-40 pr-40 w-full">
+        <div id='toolboxContainer' className="flex flex-col items-center w-full">
             <h1 className="text-6xl font-sans font-bold text-center mt-20 pb-4">Toolbox</h1>
         {/* defining the styling and the grid layout rows alternate between 4 and 5 items starting at row 1 with 4 */}
 
