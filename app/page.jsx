@@ -20,7 +20,7 @@ import { imageOptimizer } from 'next/dist/server/image-optimizer';
 export default function Home() {
   return (
     <>
-    <main className={`${quicksand.variable} font-sans flex flex-col pl-40 pr-40 w-full 2xl:w-2/5 2xl:m-auto 2xl:items-center`}>
+    <main className={`${quicksand.variable} font-sans flex flex-col pl-4 pr-4 md:pl-40 md:pr-40 w-full 2xl:w-2/5 2xl:m-auto 2xl:items-center`}>
     < Navbar />
     < Titler />
     < ProjectBox projectsArray={projectsData} />
