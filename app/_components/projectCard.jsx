@@ -48,8 +48,10 @@ export default function ProjectCard({projectObj}) {
                         <Image src='/images/github_logos/github-mark.svg' alt='github logo' fill={true} />
                         </div>
                     </button>
-                    {/* try it here button */}
-                    <button onClick={handleLiveLinkButtonClick} className="h-6 sm:h-10 font-sans text-xs sm:text-lg justify-center align-middle pl-1 pr-1 sm:pl-2 sm:pr-2 bg-slate-400 rounded-lg">Live link</button>
+                    {/* try it here button, only renders if liveLink is not null */}
+                    {liveLink ? 
+                    <button onClick={handleLiveLinkButtonClick} className="h-6 sm:h-10 font-sans text-xs sm:text-lg justify-center align-middle pl-1 pr-1 sm:pl-2 sm:pr-2 bg-slate-400 rounded-lg">Live link</button> : 
+                    null }
                 </div>
             </div>
         </div>

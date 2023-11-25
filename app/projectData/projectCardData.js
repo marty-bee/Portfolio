@@ -5,7 +5,7 @@ export const projectsData = [
             "image": "/images/project_images/stockr.png",
             "imageAlt": "Stockr returning the stock winners and losers of the day",
             "gitHubLink": "https://github.com/Mart510/StockR",
-            "liveLink": "null"
+            "liveLink": null
         },
         {
             "projectTitle": "Earth Sandwich",
