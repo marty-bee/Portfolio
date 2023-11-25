@@ -26,7 +26,7 @@ export default function SayHeyForm() {
         <textarea id="message" name="message" placeholder="message" className="w-full bg-slate-200 p-2 rounded-xl"/>
         <ValidationError prefix="message" field="message" errors={state.errors} />
       </div>
-      <button type="submit" disabled={state.submitting} className="bg-pink-400 w-40 rounded-full text-xl p-1 mb-4">
+      <button type="submit" disabled={state.submitting} className="bg-pink-400 w-40 rounded-full text-xl font-bold p-1 mb-4 dark:text-zinc-950">
         Submit
       </button>
     </form>
