@@ -5,7 +5,7 @@ const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand', 
 // component imports
 import Titler from './_components/title';
 import Navbar from './_components/navbar';
-import GetInTouch from './_components/footer';
+import GetInTouch from './_components/GetInTouch';
 import ProjectBox from './_components/projectBox';
 import Toolbox from './_components/toolbox';
 import AboutMe from './_components/aboutMe';
@@ -18,7 +18,7 @@ import { toolBoxData } from './projectData/toolBoxData' // array of tools
 export default function Home() {
   return (
     <>
-    <main className={`${quicksand.variable} font-sans flex flex-col pl-40 pr-40`}>
+    <main className={`${quicksand.variable} font-sans flex flex-col pl-40 pr-40 w-full 2xl:w-2/5 2xl:m-auto 2xl:items-center`}>
     < Navbar />
     < Titler />
     < ProjectBox projectsArray={projectsData} />
