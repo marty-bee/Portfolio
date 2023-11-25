@@ -10,7 +10,7 @@ export default function GetInTouch() {
     // return block
     return (
         <>
-            <h1 className="text-6xl font-sans font-bold text-center mt-20 mb-4">
+            <h1 className="text-3xl sm:text-6xl font-sans font-bold text-center mt-20 mb-4">
             Get in touch
             </h1>
             < SayHeyForm />

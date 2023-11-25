@@ -7,11 +7,11 @@ export default function Navbar() {
     // return
     return (
         <>
-            <nav className="font-sans text-right p-4 text-xl w-full">
-                <button className="font-sans pr-20">Work</button>
-                <button className="font-sans pr-20">About</button>
-                <button className="font-sans pr-20">Contact</button>
-                <button className="font-sans pr-4">CV</button>
+            <nav className="flex font-sans text-right p-4 md:text-xl w-full justify-between sm:justify-end">
+                <button className="font-sans sm:pr-20">Work</button>
+                <button className="font-sans sm:pr-20">About</button>
+                <button className="font-sans sm:pr-20">Contact</button>
+                <button className="font-sans sm:pr-4">CV</button>
             </nav>
         </>
     )
