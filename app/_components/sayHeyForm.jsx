@@ -15,7 +15,7 @@ export default function SayHeyForm() {
   return (
     <>
     {/* border around entire form then dividing lines */}
-    <form onSubmit={handleSubmit} className="w-full sm:w-4/5 m-auto flex flex-col justify-center items-center font-sans pl-2 pr-2 border-black border-2 rounded-3xl">
+    <form onSubmit={handleSubmit} className="w-full sm:w-4/5 m-auto flex flex-col justify-center items-center font-sans pl-2 pr-2 border-black border-2 rounded-3xl dark:border-white">
       <div className="mt-1 w-full flex p-4">
         <label htmlFor="email" className="invisible"></label>
         <input id="email" type="email" name="email" placeholder="email" aria-label="email"className="w-full p-2 bg-slate-200 rounded-xl"/>
