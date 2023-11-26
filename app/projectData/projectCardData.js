@@ -5,7 +5,8 @@ export const projectsData = [
             "image": "/images/project_images/stockr.png",
             "imageAlt": "Stockr returning the stock winners and losers of the day",
             "gitHubLink": "https://github.com/Mart510/StockR",
-            "liveLink": null
+            "liveLink": null,
+            "projectLink": '/projects/stockr'
         },
         {
             "projectTitle": "Earth Sandwich",
@@ -13,7 +14,8 @@ export const projectsData = [
             "image": "/images/project_images/earthSandwich.png",
             "imageAlt": "Earth sandwich website screenshot",
             "gitHubLink": "https://github.com/Mart510/earthSandwich",
-            "liveLink": "https://earth-sandwich.netlify.app/"
+            "liveLink": "https://earth-sandwich.netlify.app/",
+            "projectLink": '/projects/earth-sandwich'
         },
         {
             "projectTitle": "BootRant",
@@ -21,7 +23,8 @@ export const projectsData = [
             "image": "/images/project_images/bootrant.png",
             "imageAlt": "BootRant home page",
             "gitHubLink": "https://github.com/SchoolOfCode/BootRant",
-            "liveLink": "https://bootrantproject.onrender.com/"
+            "liveLink": "https://bootrantproject.onrender.com/",
+            "projectLink": '/projects/bootrant'
         },
         {
             "projectTitle": "Kitchen Timer",
@@ -29,6 +32,7 @@ export const projectsData = [
             "image": "/images/project_images/kitchentimer.png",
             "imageAlt": "BootRant home page",
             "gitHubLink": "https://github.com/SchoolOfCode/bc15-w10-d5-hackathon-react-team-fruit-nut",
-            "liveLink": "https://kitchen-timer-gamma.vercel.app/"
+            "liveLink": "https://kitchen-timer-gamma.vercel.app/",
+            "projectLink": '/projects/kitchentimer'
         }
     ]
