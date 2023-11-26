@@ -18,7 +18,7 @@ export default function ProjectCard({projectObj}) {
         // box for the exterior of the card
         <>
         <Link href={projectLink} className="w-full" >
-        <div className="w-full h-60 sm:h-96 rounded-3xl border-black border-2 box-border p-4 flex flex-row mb-8 dark:border-white hover:scale-101 active:scale-99 duration-150">
+        <div className="w-full sm:h-60 lg:h-96 rounded-3xl border-black border-2 box-border p-4 flex flex-row mb-8 dark:border-white hover:scale-101 active:scale-99 duration-150">
             {/* project image and a parent container so the images can always user 'cover' at normal aspect ratio */}
             <div className="overflow-hidden h-full w-1/2 relative box-border rounded-2xl">
                 <Image src={image} alt={imageAlt} fill={true} className="object-cover w-10 h-10"/>
