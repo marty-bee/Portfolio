@@ -1,10 +1,15 @@
-// font imports and set up
-import { Inter } from 'next/font/google'
+//css import
 import './globals.css'
-const inter = Inter({ subsets: ['latin'] })
+
+// font imports and set up
+import { Quicksand } from 'next/font/google'
+const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand', });
+
+
 
 // component imports
 import Navbar from './_components/navbar'
+import Footer from './_components/footer'
 
 export const metadata = {
   title: 'Mart Software Engineer Portfolio',
@@ -13,8 +18,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
-    </html>
+    <>
+    <main className={`${quicksand.variable} font-sans flex flex-col pl-4 pr-4 md:pl-40 md:pr-40 w-full 2xl:w-2/5 2xl:m-auto 2xl:items-center dark:bg-zinc-900 dark:text-white`}>
+      < Navbar />
+      {children}
+      < Footer />
+    </main>
+    </>
   )
 }
