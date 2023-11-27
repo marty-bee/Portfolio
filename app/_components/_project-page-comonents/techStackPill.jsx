@@ -25,6 +25,6 @@ export default function TechStackPill({techName, colorCode}) {
     }
 
     return (
-        <p className={`m-1 sm:m-2 p-1 sm:p-2 sm:w-24 h-auto ${pillColor} rounded-full hover:scale-105 text-xs sm:text-sm font-sans font-bold dark:text-zinc-950 text-center`} >{techName}</p>
+        <p className={`m-1 sm:m-2 p-1 sm:p-2 w-20 sm:w-24 h-auto ${pillColor} rounded-full hover:scale-105 text-xs sm:text-sm font-sans font-bold dark:text-zinc-950 text-center`} >{techName}</p>
     )
 }

@@ -28,7 +28,7 @@ export default function ProjectButtons({buttonLinks}) {
             {/* button holder */}
             <div className="flex p-1 sm:p-2 xl:p-4 align-middle justify-center">
             {/* github button */}
-            <button  onClick={handleGitHubButtonClick} className="h-8 w-auto sm:w-1/6 sm:h-10 font-sans text-xs sm:text-lg text-center justify-center items-center p-1 sm:p-2 bg-slate-400 rounded-lg dark:bg-white dark:text-zinc-950 flex flex-row mr-1 sm:mr-2 hover:scale-105 active:scale-95 duration-150 ">
+            <button  onClick={handleGitHubButtonClick} className="h-8 min-w-[8rem] md:w-1/6 sm:h-10 font-sans text-xs xl:text-lg text-center justify-center items-center p-1 sm:p-2 bg-slate-400 rounded-lg dark:bg-white dark:text-zinc-950 flex flex-row flex-nowrap mr-1 sm:mr-2 hover:scale-105 active:scale-95 duration-150 ">
                 Source Code
                 <div className="relative ml-1 sm:ml-2 h-4 w-4 sm:h-6 sm:w-6">
                 <Image src='/images/github_logos/github-mark.svg' alt='github logo' fill={true}/>

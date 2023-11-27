@@ -18,7 +18,7 @@ export default function Toolbox(){
                 <p className='p-2 sm:p-3 sm:w-48 h-auto bg-pink-300 rounded-full hover:scale-105' >HTML</p>
                 <p className='p-2 sm:p-3 sm:w-48 h-auto bg-pink-300 rounded-full hover:scale-105' >CSS</p>
                 <p className='p-2 sm:p-3 sm:w-48 h-auto bg-pink-300 rounded-full hover:scale-105' >Node</p>
-                <p className='p-2 sm:p-3 sn:w-48 h-auto bg-pink-300 rounded-full hover:scale-105' >TypeScript</p>
+                <p className='p-2 sm:p-3 sm:w-48 h-auto bg-pink-300 rounded-full hover:scale-105' >TypeScript</p>
             </div>
 
             <div id='row2' className="flex justify-between w-full text-center p-1 sm:p-3 pl-4 pr-4 sm:pl-24 sm:pr-24 text-sm sm:text-xl font-sans font-bold dark:text-zinc-950">
