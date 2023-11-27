@@ -8,7 +8,7 @@ export default function ProjectTechStack({ techStack }) {
   return (
     <>
       <h2 className="font-sans text-1xl sm:text-4xl font-bold text-center mt-4">Tech Stack</h2>
-      <div id="techStackContainer" className="flex flex-wrap pb-1 sm:pb-4 mb-1 md:pl-10 md:pr-10 lg:pl-40 lg:pr-40 w-full xl:w-3/5 2xl:w-2/5 2xl:m-auto 2xl:items-center">
+      <div id="techStackContainer" className="flex flex-wrap pb-1 sm:pb-4 mb-1 md:pl-10 md:pr-10 lg:pl-40 lg:pr-40 w-full max-w-screen-lg 2xl:m-auto 2xl:items-center">
         {/* toolbox pills generated from map */}
         {techStack.map((currentTool) => (
           // creating the pill

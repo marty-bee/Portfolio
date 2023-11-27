@@ -13,13 +13,13 @@ export default function Stockr(){
             buttonLinks={stockProjectObj.buttonLinks}
             techStack={stockProjectObj.techStack} />
             <br/>
-            <section className="font-sans flex flex-col m-auto">
+            <section className="font-sans flex flex-col m-auto max-w-screen-lg">
             <h3 className="text-2xl font-bold">The idea</h3>
-            <p className="text-left pl-2">Returning the 2 best performing and worst perfoming stocks of the day. A chance to practice working with external data</p>
+            <p className="text-left">Returning the 2 best performing and worst perfoming stocks of the day. A chance to practice working with external data</p>
             <br/>
 
             <h3 className="text-2xl font-bold">The intial plan</h3>
-            <p className="pl-2">First step was to break down the problem into chunks to begin understanding how to tackle this.</p>
+            <p className="text-left">First step was to break down the problem into chunks to begin understanding how to tackle this.</p>
             <ul className="list-disc list-inside indent-4">
                 <li>First get stock price data for a range of stocks for today</li>
                 <li>Then store those somewhere</li>
@@ -50,11 +50,11 @@ export default function Stockr(){
                 <Image src='/images/stockr/elephantsql.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>I now needed a way reset the database, this consisted of dropping any tables that exist, creating a new one and then seeding it with data from a JSON of the S&P500 listed companies.
-            <br/>
             I had real issues getting readFile to work until I came across a GitHub thread discussing how it handles file paths. relative paths work but from the CWD, not the file the line is written in, so my numerous attempts using ../../../sANDp500.json didn’t work.
             </p>
             <br/>
             {/* video showing database reset goes here */}
+            {/* testing out youtube embed */}
             <p>Next step was adding the REST database API calls to allow data to be accessed and updated on the database. I created a function return all the symbols from the database and parse it into a neat array.</p>
             {/* i created a function image */}
             <div className="h32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
