@@ -54,7 +54,7 @@ export default function Stockr(){
             </p>
             <br/>
             {/* video showing database reset goes here */}
-            {/* testing out youtube embed */}
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/X_k9FWRAn_4?si=vdUD9Ed3U0PmZC5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p>Next step was adding the REST database API calls to allow data to be accessed and updated on the database. I created a function return all the symbols from the database and parse it into a neat array.</p>
             {/* i created a function image */}
             <div className="h32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
