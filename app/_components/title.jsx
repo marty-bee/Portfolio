@@ -7,8 +7,8 @@ export default function Titler() {
 
     return (
         <>
-            <div id='centering' className="flex flex-row justify-center pt-40 pb-36 sm:pb-40 w-full">
-                <div id='titleBox' className="items-center justify-center w-full md:w-3/5 pl-4 pr-4" >
+            <div id='centering' className="flex flex-row justify-center pt-40 pb-36 sm:pb-40 w-full lg:font-serif">
+                <div id='titleBox' className="items-center justify-center w-full md:w-3/5 pl-4 pr-4 " >
                     <h1 className='font-sans text-5xl sm:text-8xl font-bold text-left pr-4'>Martyn</h1>
                     <h1 className="font-sans text-5xl sm:text-8xl font-bold text-right pl-4
                     bg-pink-400 mt-2">Billings</h1>
