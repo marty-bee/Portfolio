@@ -10,6 +10,9 @@ export default function ProjectButtons({buttonLinks}) {
     // deconstruct object to create the buttons - default values included for ease of debugging
     const {gitHubLink ='test title', liveLink = false } = buttonLinks
 
+    console.log(`gitHubLink: ${gitHubLink}`) // debug logger github
+    console.log(`liveLink: ${liveLink}`) // debug logger live
+
 
     const handleGitHubButtonClick = () => {
         // navigate user to github repo
