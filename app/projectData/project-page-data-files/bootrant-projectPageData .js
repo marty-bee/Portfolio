@@ -1,5 +1,5 @@
 // this file contains example objects that need to be populated for each project page, duplicate and rename this file for each project and adjust contents to needs/
-export const stockProjectObj = {
+export const bootrantProjectObj = {
   // projectTitle - used to render the project title
   projectTitle: "Boot Rant",
   // buttonLinks - used to render the link buttons
@@ -9,10 +9,6 @@ export const stockProjectObj = {
   },
   // techStack - used to render the tech stack pills
   techStack: [
-    {
-      colorCode: "pink",
-      techname: "Finhubb API",
-    },
     {
       colorCode: "pink",
       techname: "JavaScript",
@@ -27,19 +23,7 @@ export const stockProjectObj = {
     },
     {
       colorCode: "orange",
-      techname: "SQL",
-    },
-    {
-      colorCode: "orange",
-      techname: "Vitest",
-    },
-    {
-      colorCode: "orange",
       techname: "REST API",
-    },
-    {
-      colorCode: "yellow",
-      techname: "Git",
     },
     {
       colorCode: "yellow",

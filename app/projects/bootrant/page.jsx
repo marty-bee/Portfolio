@@ -3,15 +3,15 @@ import ProjectPage from "@/app/_components/_project-page-comonents/projectPage"
 import Image from "next/image"
 
 // date import
-import { bootrantProjectOb0j } from "@/app/projectData/project-page-data-files/boot-projectPageData"
+import { bootrantProjectObj } from "@/app/projectData/project-page-data-files/bootrant-projectPageData "
 
 export default function BootRant(){
 
     return(
         <>
-            < ProjectPage projectTitle={bootrantProjectOb0j.projectTitle}
-            buttonLinks={bootrantProjectOb0j.buttonLinks}
-            techStack={bootrantProjectOb0j.techStack} />
+            < ProjectPage projectTitle={bootrantProjectObj.projectTitle}
+            buttonLinks={bootrantProjectObj.buttonLinks}
+            techStack={bootrantProjectObj.techStack} />
             <br/>
             <section className="font-sans flex flex-col m-auto max-w-screen-lg">
             <h3 className="text-2xl font-bold">The idea</h3>
