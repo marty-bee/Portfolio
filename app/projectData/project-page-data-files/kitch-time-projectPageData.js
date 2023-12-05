@@ -1,7 +1,7 @@
 // this file contains example objects that need to be populated for each project page, duplicate and rename this file for each project and adjust contents to needs/
-export const stockProjectObj = {
+export const kitchtimeProjectObj = {
   // projectTitle - used to render the project title
-  projectTitle: "Stockr",
+  projectTitle: "Kitchen Timer",
   // buttonLinks - used to render the link buttons
   buttonLinks: {
     gitHubLink: "https://github.com/Mart510/StockR",

@@ -15,13 +15,13 @@ export default function AboutMe() {
                 {/* <Image src='/images/me.jpg' alt='Me and my dog Natsu' height={250} width={300} quality={75} className="relative object-cover rounded-3xl pr-4"/> */}
             <div className="text-sm sm:text-base font-sans sm:columns-2 sm:gap-4 justify-normal">
                 <p>
-                Hi, I'm Martyn, a passionate creator of all things. Originally, my dream was to become a chef, finding joy in crafting things that bring happiness, like cakes.
+                Hi, I&apos;m Martyn, a passionate creator of all things. Originally, my dream was to become a chef, finding joy in crafting things that bring happiness, like cakes.
                 </p>
                 <br />
-                <p>During a brief stint in catering as a teenager, I realized my desire to be a chef was more about the scale of impact. The business I worked for could serve 500 people on a good weekend, but compared to McDonald's delivering 69 million moments of happiness daily, it practically didn't exist.</p>
+                <p>During a brief stint in catering as a teenager, I realized my desire to be a chef was more about the scale of impact. The business I worked for could serve 500 people on a good weekend, but compared to McDonald&apos;s delivering 69 million moments of happiness daily, it practically didn&apos;t exist.</p>
                 <br />
                 <p>
-                This led me to industrial design, a well-designed and crafted product can create thousands of happy moments over many years. Always striving for a larger scale, I delved into UX design, working towards delivering the 'wonderful everyday'.
+                This led me to industrial design, a well-designed and crafted product can create thousands of happy moments over many years. Always striving for a larger scale, I delved into UX design, working towards delivering the &apos;wonderful everyday&apos;.
                 </p>
                 <br />
                 <p>
@@ -29,11 +29,11 @@ export default function AboutMe() {
                 </p>
                 <br />
                 <p>
-                I've worked with companies of all sizes, from startups to established businesses, showcasing a proven track record in creative solutions and project delivery.
+                I&apos;ve worked with companies of all sizes, from startups to established businesses, showcasing a proven track record in creative solutions and project delivery.
                 </p>
                 <br />
                 <p>
-                My diverse background includes roles such as UX Designer, Design Engineer, Research Consultant, Toy Designer, and Lighting Designer. This varied experience has equipped me with the skills to quickly adapt to any stack, tools, stakeholders, clients, or users' needs.
+                My diverse background includes roles such as UX Designer, Design Engineer, Research Consultant, Toy Designer, and Lighting Designer. This varied experience has equipped me with the skills to quickly adapt to any stack, tools, stakeholders, clients, or users&apos; needs.
                 </p>
                 <br />
                 <p>
