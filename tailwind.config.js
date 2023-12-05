@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        '500': '42rem'
+      },
       fontFamily: {
         sans: ['var(--font-quicksand)'],
       },
@@ -17,6 +20,7 @@ module.exports = {
       },
       scale: {
         '101': '1.01',
+        '99': '0.99',
       }
     },
   },

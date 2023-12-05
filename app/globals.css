@@ -16,6 +16,7 @@
   }
 }
 
+/* Applies a gradient to the dark mode color */
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
