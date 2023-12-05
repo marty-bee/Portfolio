@@ -15,7 +15,7 @@ export default function earthSandwich(){
             <br/>
             <section className="font-sans flex flex-col m-auto">
             <h3 className="text-2xl font-bold">The idea</h3>
-            <p className="text-left pl-2">A web application that lets you create an earth sandwich by letting you locate the exact opposite side of the Earth from a given location. It's a fun and educational tool inspired by Ze Frank's global sandwich challenge.</p>
+            <p className="text-left pl-2">A web application that lets you create an earth sandwich by letting you locate the exact opposite side of the Earth from a given location. It&apos;s a fun and educational tool inspired by Ze Frank&apos;s global sandwich challenge.</p>
             <br/>
 
             <h3 className="text-2xl font-bold">Development Journey</h3>
@@ -49,7 +49,7 @@ export default function earthSandwich(){
                 <Image src='/images/earthSandwich/earthsandwichjustlogging.png' alt='Earth sandwich testing' fill={true} className="object-scale-down relative"/>
             </div>
             <h3 className="text-2xl font-bold">Adding a map to make it visual</h3>
-                <p>Lat and Long values aren't very useful or exicting for most people. I could only understand where it was refering to when I looked it up. To make this a better user experience I needed to remove that step.
+                <p>Lat and Long values aren&apos;t very useful or exicting for most people. I could only understand where it was refering to when I looked it up. To make this a better user experience I needed to remove that step.
                 Enter Leaflet, a popular JavaScript library that provides interactive maps. Following the quick start I made a one page file combining the HTML, CSS and JS to establish viablity and get a proof of concept quickly.</p>
 
         {/* Repo image with map */}
@@ -94,7 +94,7 @@ export default function earthSandwich(){
                 <li><p className="font-bold">The importance of reading documentation and thorough planning.</p>Any real sticking points I had during this typically came from misunderstanding a piece of documentation or planning at too high a level.</li>
             </ul>
             <h3 className="text-2xl font-bold">Future plans</h3>
-            <p>To take this project to it's final form I will need to recreate this using 3js as to get the full interactive and experience it needs to be shown on a 3d globe. Seeing two maps side by side whilst accurate doesn't communicate very effectively the postional reality to users.</p>
+            <p>To take this project to it&apos;s final form I will need to recreate this using 3js as to get the full interactive and experience it needs to be shown on a 3d globe. Seeing two maps side by side whilst accurate doesn&apos;t communicate very effectively the postional reality to users.</p>
 
 
 
