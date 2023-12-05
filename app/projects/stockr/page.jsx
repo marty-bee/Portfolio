@@ -50,7 +50,7 @@ export default function Stockr(){
                 <Image src='/images/stockr/elephantsql.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>I now needed a way reset the database, this consisted of dropping any tables that exist, creating a new one and then seeding it with data from a JSON of the S&P500 listed companies.
-            I had real issues getting readFile to work until I came across a GitHub thread discussing how it handles file paths. relative paths work but from the CWD, not the file the line is written in, so my numerous attempts using ../../../sANDp500.json didn’t work.
+            I had real issues getting readFile to work until I came across a GitHub thread discussing how it handles file paths. relative paths work but from the CWD, not the file the line is written in, so my numerous attempts using ../../../sANDp500.json didn&apos;t work.
             </p>
             <br/>
             {/* video showing database reset goes here */}
@@ -64,7 +64,7 @@ export default function Stockr(){
             <br/>
             <ul className="list-disc list-inside pl-2 indent-4">
                 {/* finnhub docs error */}
-                <li>Finnhub's documentation was incorrect, the number of API calls on the free version allowed was 60 call/min not 60 calls/sec. This was solved by adding a time out of 1001 to ensure it would not exceed this limit.</li>
+                <li>Finnhub&apos;s documentation was incorrect, the number of API calls on the free version allowed was 60 call/min not 60 calls/sec. This was solved by adding a time out of 1001 to ensure it would not exceed this limit.</li>
                 {/* Too many connections */}
                 <li>I had set up my database patch request to create a new connection each time. This worked fine at a small scale, but tripped the limit of 5 when I tried to do 505 in the space of a few seconds.</li>
                 {/* fix image */}
