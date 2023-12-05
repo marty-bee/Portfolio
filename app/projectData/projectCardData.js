@@ -26,13 +26,4 @@ export const projectsData = [
             "liveLink": "https://bootrantproject.onrender.com/",
             "projectLink": '/projects/bootrant'
         },
-        {
-            "projectTitle": "Kitchen Timer",
-            "projectDescription": "React App allowing multiple timers to be set, 1 day hackathon project",
-            "image": "/images/project_images/kitchentimer.png",
-            "imageAlt": "BootRant home page",
-            "gitHubLink": "https://github.com/SchoolOfCode/bc15-w10-d5-hackathon-react-team-fruit-nut",
-            "liveLink": "https://kitchen-timer-gamma.vercel.app/",
-            "projectLink": '/projects/kitchentimer'
-        }
     ]
