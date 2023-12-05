@@ -1,37 +1,26 @@
 'use client'
-// import block
-import { useScroller, scroller } from '../_customHooks/useScroll'
+import { toggleColorScheme } from "../utlity_functions/colorschemetoggler";
 
-// This component contains the navigation bar and all the links as part of it
 export default function Navbar() {
-    // // using the custom hook and scroller fucntion
-    // const workRef = useRef(null);
-    // const aboutRef = useRef(null);
-    // const contactRef = useRef(null);
-  
-    // // Use the useScroller hook for each section
-    // const { targetElementRef: workTargetRef, scroller: workScroller } = useScroller();
-    // const { targetElementRef: aboutTargetRef, scroller: aboutScroller } = useScroller();
-    // const { targetElementRef: contactTargetRef, scroller: contactScroller } = useScroller();
-  
-    // // Set the refs to the corresponding section refs
-    // useEffect(() => {
-    //   workTargetRef.current = workRef.current;
-    //   aboutTargetRef.current = aboutRef.current;
-    //   contactTargetRef.current = contactRef.current;
-    // }, [workRef, aboutRef, contactRef, workTargetRef, aboutTargetRef, contactTargetRef]);
-    // // return
-    // function to for the toggle switch
+
 
     return (
         <>
             <nav className="flex font-sans text-right p-4 md:text-xl w-full justify-between sm:justify-end">
+                {/* home link */}
+                {/* go to home and scroll to work */}
+                {/* go to home and scroll to about */}
+                {/* go to home and scroll to contact form */}
+                {/* go to CV page */}
+                {/* go to linkedIn page */}
+                {/* toggle between light and dark mode */}
                 <button className="font-sans sm:pr-20">Work</button>
                 <button className="font-sans sm:pr-20">About</button>
                 <button className="font-sans sm:pr-20">Contact</button>
                 <button className="font-sans sm:pr-20">CV</button>
+                <button id='linkedInProfile'></button>
                 {/* button to toggle dark/light theme */}
-                <button className='font-sans sm:pr-4'>Theme</button>
+                <button className='font-sans sm:pr-4' onClick={toggleColorScheme}>Theme</button>
             </nav>
         </>
     )
