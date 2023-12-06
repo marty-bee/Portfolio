@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <body className='dark:bg-zinc-900'>
     <main className={`${quicksand.variable} font-sans flex flex-col pl-4 pr-4 md:pl-40 md:pr-40 w-full max-w-screen-2xl 2xl:m-auto dark:text-white`}>
       {/* commented out until it's ready */}
-      {/* < Navbar /> */}
+      < Navbar />
       {children}
       < Footer />
     </main>
