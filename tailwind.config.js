@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      width: {
+        '2xls': '1536px'
+      },
       height: {
         '500': '42rem'
       },
