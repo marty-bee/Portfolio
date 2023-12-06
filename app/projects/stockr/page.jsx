@@ -30,34 +30,32 @@ export default function Stockr(){
             <h3 className="text-2xl font-bold">Getting started</h3>
             <p>Firstly I searched for a data source for stock information and found Finnhub.io. They had robust documentation a node module and crucially for me a free tier to play around with.</p>
             {/* quote image */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
                 <Image src='/images/stockr/finnhubapi.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>Test API call for the current quote of Amazon using thuderclient.</p>
             <p>Created a function to call on a loop so I can repeat this request for every stock in a list.</p>
             {/* loop image */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
                 <Image src='/images/stockr/loopquoter.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>As this was going to have to run over an extended period of time I created unit tests to ensure the return values were as expected.</p>
             {/* test screenshot */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
                 <Image src='/images/stockr/samplefromtestfile.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>With the API requirements understood and tested the next step was to set up a postgreSQL database so I can manage and query the data the API returned.</p>
             {/* elephant sql image */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
                 <Image src='/images/stockr/elephantsql.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>I now needed a way reset the database, this consisted of dropping any tables that exist, creating a new one and then seeding it with data from a JSON of the S&P500 listed companies.
             I had real issues getting readFile to work until I came across a GitHub thread discussing how it handles file paths. relative paths work but from the CWD, not the file the line is written in, so my numerous attempts using ../../../sANDp500.json didn&apos;t work.
             </p>
             <br/>
-            {/* video showing database reset goes here */}
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/X_k9FWRAn_4?si=vdUD9Ed3U0PmZC5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <p>Next step was adding the REST database API calls to allow data to be accessed and updated on the database. I created a function return all the symbols from the database and parse it into a neat array.</p>
             {/* i created a function image */}
-            <div className="h32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
                 <Image src='/images/stockr/databasereset.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
             </div>
             <p>Then using this array I could call the quote on a loop. This passed all of my unit testing. However it kept running into errors when I tried to run on it on the whole S&P500. This turned out to be two main problems:</p>
@@ -73,9 +71,9 @@ export default function Stockr(){
             <p>Lesson learned, add real stress testing into the unit-tests and I would have caught some of this much earlier.</p>
             {/* it works it running video */}
             <p>As it stands right now the system works, and takes around 10 minutes to run due to the amount of API requests it has to make and being limited to 1 a second. The video below is sped up around 20x to show it working.</p>
-            {/* getting meaningful data back image */}
-            <div className="h-16 sm:h-40 2xl:h-80 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
-                <Image src='/images/stockr/meaningfuldataback.png' alt='finnhub API' fill={true} className="object-scale-down relative"/>
+            {/* video showing database reset goes here */}
+            <div className="ml-auto mr-auto w-full h-96 rounded-2xl sm:h-500 max-w-screen-2xl">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/X_k9FWRAn_4?si=vdUD9Ed3U0PmZC5o" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <h3 className="text-2xl font-bold">Future additions</h3>
             <ul className="list-disc list-inside pl-2 indent-4">
