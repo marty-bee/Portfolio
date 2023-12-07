@@ -1,8 +1,9 @@
 // import block
 import Link from "next/link"
 import ThemeToggler from './themeToggler';
+import getServerSideProps from "../utlity_functions/serverpropsgetter";
 
-export default function Navbar() {
+export default function Navbar({ initialTheme }) {
     return (
         <>
             <nav className="flex font-sans text-right p-4 md:text-xl w-full justify-between sm:justify-end">
@@ -18,7 +19,7 @@ export default function Navbar() {
                 font-sans hover:scale-105">LinkedIn</Link>
                 {/* button to toggle dark/light theme */}
                 {/* <button className='font-sans sm:pr-4'>Theme</button> */}
-                <ThemeToggler/>
+                <ThemeToggler initialTheme={initialTheme}/>
             </nav>
         </>
     )

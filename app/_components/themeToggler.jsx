@@ -4,9 +4,9 @@
 import { useEffect, useState } from "react";
 
 
-export default function ThemeToggler() {
+export default function ThemeToggler({initialTheme}) {
     // setting state
-    const [darkMode, setDarkMode] = useState(true)
+    const [darkMode, setDarkMode] = useState(initialTheme === 'dark')
     
     // use effect to run when component mounts, so if user uses darkmode it defaults to dark mode for them
     useEffect(() => {
