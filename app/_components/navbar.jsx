@@ -5,7 +5,7 @@ import { useScroller, scroller } from '../_customHooks/useScroll'
 import Image from "next/image"
 import Link from "next/link"
 import { toggleColorScheme } from "../utlity_functions/colorschemetoggler";
-
+import ThemeSwitch from './darkmodeSwitcher';
 
 export default function Navbar() {
 
@@ -26,6 +26,7 @@ export default function Navbar() {
                 <Link href={'https://www.linkedin.com/in/martbillings/'} className="flex items-center pl-2 pr-2 font-sans hover:scale-105">LinkedIn</Link>
                 {/* button to toggle dark/light theme */}
                 {/* <button className='font-sans sm:pr-4'>Theme</button> */}
+                <ThemeSwitch></ThemeSwitch>
             </nav>
         </>
     )
