@@ -8,13 +8,13 @@
   --background-end-rgb: #D9D9D9;
 }
 /* set to prefers-color-scheme: dark to make it follow user system settings */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: #D9D9D9;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 /* Applies a gradient to the dark mode color */
 body {

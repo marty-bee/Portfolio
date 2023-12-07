@@ -1,6 +1,7 @@
 // google font import
 import { Quicksand } from 'next/font/google'
 const quicksand = Quicksand({ subsets: ['latin'], variable: '--font-quicksand', });
+import { useRouter } from "next/navigation";
 
 // component imports
 import Titler from './_components/title';
