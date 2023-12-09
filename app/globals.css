@@ -2,22 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+
+/* debug background gradient later, conflicting with tailwind styles */
+/* :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: #D9D9D9;
-  --background-end-rgb: #D9D9D9;
-}
+  --background-start-rgb: 38, 38, 38;
+  --background-end-rgb: 23, 23, 23;
+} */
 /* set to prefers-color-scheme: dark to make it follow user system settings */
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: #D9D9D9;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --foreground-rgb: 23, 23, 23;
+    --background-start-rgb: 245, 245, 235;
+    --background-end-rgb: 240, 240, 235;
   }
-}
+} */
 
 /* Applies a gradient to the dark mode color */
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -25,4 +27,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
