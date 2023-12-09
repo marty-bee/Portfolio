@@ -1,6 +1,7 @@
 // import block
 import Link from "next/link"
 import ThemeToggler from './themeToggler';
+import { ThemeSwitch } from "./darkmodeSwitcher";
 
 export default function Navbar({ initialTheme }) {
     return (
@@ -18,7 +19,7 @@ export default function Navbar({ initialTheme }) {
                 font-sans hover:scale-105">LinkedIn</Link>
                 {/* button to toggle dark/light theme */}
                 {/* <button className='font-sans sm:pr-4'>Theme</button> */}
-                <ThemeToggler initialTheme={initialTheme}/>
+                <ThemeSwitch/>
             </nav>
         </>
     )
