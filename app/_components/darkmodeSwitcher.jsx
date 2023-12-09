@@ -1,14 +1,23 @@
-// dark mode switcher import
-// functions to toggle the color scheme from dark to light
+'use client'
+import { useEffect } from 'react';
 
 export default function ThemeSwitch() {
+  useEffect(() => {
+    const storedTheme = localStorage.theme;
+
+    if (storedTheme) {
+      const newTheme = storedTheme === 'system' ? 'system' : storedTheme;
+      document.documentElement.classList.toggle('dark', newTheme === 'dark');
+      document.documentElement.setAttribute('color-theme', newTheme);
+    }
+  }, []); // Run only once on mount
 
   function switchTheme() {
     let newTheme;
     switch (localStorage.theme) {
       // use system colors (be it light or dark)
       case 'system':
-        if (window.matchMedia('(prefers-color-scheme: dark').matches) {
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
           newTheme = 'light';
         } else {
           newTheme = 'dark';
