@@ -1,7 +1,6 @@
 // import block
 import Link from "next/link"
 import ThemeToggler from './themeToggler';
-import getServerSideProps from "../utlity_functions/serverpropsgetter";
 
 export default function Navbar({ initialTheme }) {
     return (
