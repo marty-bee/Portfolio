@@ -70,7 +70,7 @@ export default function earthSandwich(){
             Before starting I needed to plan the expected operations:</p>
             {/* flow diagram goes here loading dark mode in only right now, will set ternery to render depending on user theme */}
             <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
-                <Image src='/images/earthSandwich/earthSandwichdatadiagdark.png' alt='Geocoding data plan' fill={true} className="object-scale-down relative"/>
+                <Image src='/images/earthSandwich/geocodeflow.png' alt='Geocoding data plan' fill={true} className="object-scale-down relative"/>
             </div>
 
             <p>I found geoapifiy, a location platform that offered a geocoding api, with robust documentation and a node module to boot. In order to use this I would need to refactor my current code into a Node project.</p>
