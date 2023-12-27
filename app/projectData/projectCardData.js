@@ -1,4 +1,13 @@
 export const projectsData = [
+    {
+        "projectTitle": "mart.codes",
+        "projectDescription": "A portfolio site as a place to host all of my projects. Built as a chance to learn NextJS and Tailwind.",
+        "image": "/images/project_images/martcodeshomepage.png",
+        "imageAlt": "mart.codes homepage",
+        "gitHubLink": "https://github.com/Mart510/Portfolio",
+        "liveLink": "https://mart.codes/",
+        "projectLink": '/projects/portfolio'
+    },
         {
             "projectTitle": "Stockr",
             "projectDescription": "An exercise in data manipluation using a stock market api",
