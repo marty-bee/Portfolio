@@ -2,7 +2,7 @@ export const projectsData = [
         {
             "projectTitle": "Intern",
             "projectDescription": "4 week project to deliver a dashboard powered by Zoom data to help the day to day running of software bootcamps",
-            "image": "/images/project_images/martcodeshomepage.png",
+            "image": "/images/project_images/interncoverimage.png",
             "imageAlt": "Intern project image",
             "gitHubLink": "https://github.com/Christener19/intern",
             "liveLink": "https://intern-soc.vercel.app/",
