@@ -21,7 +21,7 @@ export default function internProj(){
             <h3 className="text-2xl font-bold">Our solution: Intern</h3>
             {/* dashboard image */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/internDashboard.png' alt='Intern dashboard' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">A data dashboard giving you all the useful information at a glance, named as such as it&apos;s unpaid and does all the grunt work so you don&apos;t have to.</p>
             <ul className="list-disc list-inside pl-2 indent-4">
@@ -35,7 +35,7 @@ export default function internProj(){
             <p className="text-left">Our client was the School of Code itself, it utilised Zoom to facilitate day to day operations. However they did not leverage the rich data available from Zoom&apos;s API, SDK&apos;s and web-hook services. They wanted us to explore these capabilities and create a dashboard to assist the running of the bootcamp.</p>
             {/* figjam screen shots */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">Our structure for 4 weeks ended up being divided up as follows:</p>
             <ul className="list-disc list-inside pl-2 indent-4">
@@ -49,7 +49,7 @@ export default function internProj(){
             <p className="text-left">To get started, the team all introduced themselves, a chance to understand everyones backgrounds, strengths and weaknesses. We then created and agreed on a team manifesto to give us an agreed operating procedure for the next few weeks.</p>
             {/* team manifesto */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
 
             <h4 className="text-xl font-bold">Kick off</h4>
@@ -60,25 +60,25 @@ export default function internProj(){
             <p className="text-left">After our research activities we created UX persona&apos;s for our key users. This allowed us to build empathy and a understand how the problem impacted their workflows.</p>
             {/* ux personas */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
 
             <h4 className="text-xl font-bold">Ideation</h4>
             <p className="text-left">I then led the team through a Disney ideation workshop to rapidly and creatively iterate on solutions for our personas. These initial ideas were built out into minimum viable products which then were extended into minimum viable experiences (MVE). User stories could then be written for each MVE and lo-fi mockups of how this might feel could be created.</p>
             {/* disney ideation */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
 
             <h4 className="text-xl font-bold">Feasibility</h4>
             <p className="text-left">In order to ensure our ideas were actually deliverable within the time frame t-shirt sizing was used to estimate the time it would take to deliver each feature. This then allowed us to present it to the stakeholder with restrictions on how many features they could request in this 4 week sprint cycle. We could deliver 1 small, 1 medium and 1 large feature outside of the base requirements of authentication and attendance tracking.</p>
             {/* feasibility */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             {/* shirt sizing */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
 
             <h4 className="text-xl font-bold">Stakeholder meeting</h4>
@@ -92,13 +92,13 @@ export default function internProj(){
             </ul>
             {/* agreed plan */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <h4 className="text-xl font-bold">Finishing up week 1</h4>
             <p className="text-left">To close out the week we set up the team Trello board, agreed epics, user stories and tasks that needed to be completed. Ran a team retro to understand how everyone was getting on and make any adjustments to our processes as needed.</p>
             {/* trello board */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
 
             <p className="text-left">Agreed on our tech stack of NextJs, TypeScript and Tailwind. These were chosen for the following reasons:</p>
@@ -114,43 +114,44 @@ export default function internProj(){
             <p className="text-left">With the epics all broken down into stories and tasks the work could be divided throughout the team. One team implemented supabase authentication to create a login wall, required to keep our site secure. Whilst the other started work on the components. By the end of the week we had all 4 dashboard components created using hardcoded data objects to allow us to test out the functionality alongside a working login system.</p>
             {/* login page */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">I led the planning of the backend structure, including the database schema, the MVC setup and how we could calculate an initial engagement score using the data available to us from our zoom API.</p>
             {/* database schema */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             {/* data flow excalidraw plan */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             {/* MVC? */}
             {/* enagement logger calculation */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">The week concluded with setting up the database and a stakeholder presentation to update them on our progress and our proposed sprint goals for the remaining weeks of the project.</p>
-
 
             <h3 className="text-2xl font-bold">Week 3</h3>
             <p className="text-left">Started with creating the algorithms to calculate the engagement grade of a bootcamper alongside my colleague Kit, whilst the team focused on creating a piece of middleware to check and refresh our Zoom access token (as it expires every hour) if needed to assist us with our Zoom API calls.</p>
             {/* engagent algo codes */}
+            <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+            </div>
             <p className="text-left">I took ownership of setting up the MVC system to allow communication with our database, once this was completed the team began work fetching data and translating into props for our react component&apos;s. The focus was on making everything work with our test database first and then using the Zoom API in the future to populate the database.</p>
             {/* mvc ? */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">We had real issues this week as the team struggled with translating the database requests into the props needed. The solution to this was found to be writing explicit Trello tickets breaking down each expected step to give then an example of how they might tackle the problem.</p>
             {/* break it down ticket? */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">Our initial understanding of how we could use NextJS&apos;s ISR to reload components at set intervals was incorrect. ISR is designed to be used at a page level, not at a component level. So we could only use it to reload the whole dashboard which wasn&apos;t ideal. Upon some brainstorming and googling I found that we could update our database using a scheduled cron job as Vercel supports them and then using setTimeout on components to get them to reload/refetch their props from the database.</p>
             {/* cron job */}
-            <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
-            </div>
+            {/* get login from Christener and screen shot the set up */}
+
 
 
             <h3 className="text-2xl font-bold">Week 4</h3>
@@ -160,17 +161,17 @@ export default function internProj(){
             <p className="text-left">In order to try and reduce calls to the database for performance, the function to update all the engagment grades was refined from using a nested loop to caclulating the breakpoints ahead of time. Reducing it from 0n2 (quadratic) to 0n (linear) thereby dramatically improving it&apos;s scalability</p>
             {/* calculate median and break points once */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">Last-minute additions to the project included creating a simulated zoom poll prop for demonstration purposes as without a live zoom call to use it on it&apos;s hard to communicate the value of the tool.</p>
             {/* gif showing zoom polls */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             <p className="text-left">To close the project for Christmas I ran a team retro across the whole project with a focus on the positives to raise moral after a challenging few weeks.</p>
             {/* final retro */}
             <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
 
 
@@ -188,20 +189,16 @@ export default function internProj(){
                 <li>One moment that really sticks in my head is when we got the &grave;download CSV buttons&grave; to work I was so excited. It took it in my head from being just a website to a proper software with usable outputs.</li>
                 {/* download button */}
                 <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
                 <li>Managing the team was tough but a solid exercise in team working, soft skills and stakeholder management.</li>
                 <li>I am aware of the areas I need to improve upon going forward. I want to become proficient in using web-hooks and web-sockets as I can see their utility but like state in react it doesn&apos;t come naturally to me yet.</li>
                 <li> Typescript was a joy to use, it makes a lot of sense to me as I have done some projects before in C. The self-documenting set-up was a godsend during the project, just being able to understand what a function needs by hovering over it. I remember it saving us lots of time debugging by when writing a function where two inputs were to be summed it informed me that it viewed them as strings so it wanted to concatenate them when I needed them summed. Getting that visual heads up ensured I knew that I just needed to cast it explicitly to a number for the function to behave as intended before I had even ran it.</li>
                 {/* hovering over typescript function */}
                 <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8 max-w-screen-2xl">
-                <Image src='/images/portfolio/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/portfolioFigmaDesigns.png' alt='figma designs' fill={true} className="object-scale-down relatrive"/>
             </div>
             </ul>
-
-
-
-
             </section>
         </>
     )
