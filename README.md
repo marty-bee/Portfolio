@@ -1,8 +1,11 @@
 
 # Portfolio
-A NextJS application that allows me to put my projects in a structured and ordered way. It allows me to explain the rationale behind projects and decisions I made that are more in-depth than would be appropriate in a project README file.
+A NextJS application that allows me to put my projects in a structured and ordered way. It allows me to explain the rationale behind projects and decisions I made that are more in-depth than would be appropriate in 
+a project README file.
 
-<img src="/images/readmeImage.png" width="1600" alt="site screen shot">
+You can see this live on **[mart.codes](https://mart.codes/)**
+
+![ScreenShot from the app](readmeImage.png)
 
 ## Features
 
