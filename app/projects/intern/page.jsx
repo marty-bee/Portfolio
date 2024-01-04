@@ -159,8 +159,9 @@ export default function internProj(){
             <br/>
             <p className="text-left">With these created one half of the team began creating end to end tests to validate and refine our code, the other half with me began work on setting up the pipeline between Zoom and our database.</p>
             <br/>
-            <p className="text-left">During testing the team kept coming up against a &grave;too many connections&grave; error with our database. Initially to try and get around this I set a max pool connection limit and increased our allowance from our provider ElephantSQL but we kept hitting the limits. However this still caused problems as if multiple users are accessing the system our connection limit of 15 was still far to few to give good performance. The solution found to this was to migrate the database to another provider supabase as they provided a much higher connection limit.</p>
+            <p className="text-left">During testing the team kept coming up against a &apos;too many connections&apos; error with our database. Initially to try and get around this I set a max pool connection limit and increased our allowance from our provider ElephantSQL but we kept hitting the limits. However this still caused problems as if multiple users are accessing the system our connection limit of 15 was still far to few to give good performance. The solution found to this was to migrate the database to another provider supabase as they provided a much higher connection limit.</p>
             <br/>
+            <h4 className="text-xl font-bold">Big O optimization</h4>
             <p className="text-left">In order to try and reduce calls to the database for performance, the function to update all the engagment grades was refined from using a nested loop to caclulating the breakpoints ahead of time. Reducing it from 0n2 (quadratic) to 0n (linear) thereby dramatically improving it&apos;s scalability</p>
             <br/>
             <p className="text-left">Last-minute additions to the project included creating a simulated zoom poll prop for demonstration purposes as without a live zoom call to use it on it&apos;s hard to communicate the value of the tool.</p>
@@ -186,7 +187,7 @@ export default function internProj(){
             <h3 className="text-2xl font-bold">Personal reflections</h3>
             <ul className="list-disc list-inside pl-2 indent-4">
                 <li>This project was real challenge, lots of new things to learn and manage all at once. I really enjoyed it though as the learning part of the process was really enjoyable.</li>
-                <li>One moment that really sticks in my head is when we got the &grave;download CSV buttons&grave; to work I was so excited. It took it in my head from being just a website to a proper software with usable outputs.</li>
+                <li>One moment that really sticks in my head is when we got the &apos;download CSV buttons &apos; to work I was so excited. It took it in my head from being just a website to a proper software with usable outputs.</li>
                 {/* download button */}
                 <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-2 mb-2 sm:mt-4 sm:mb-4 max-w-screen-2xl">
                 <Image src='/images/intern/csvdownload.png' alt='CSV download function' fill={true} className="object-scale-down relatrive"/>
