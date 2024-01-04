@@ -161,14 +161,15 @@ export default function internProj(){
             <br/>
             <p className="text-left">During testing the team kept coming up against a &apos;too many connections&apos; error with our database. Initially to try and get around this I set a max pool connection limit and increased our allowance from our provider ElephantSQL but we kept hitting the limits. However this still caused problems as if multiple users are accessing the system our connection limit of 15 was still far to few to give good performance. The solution found to this was to migrate the database to another provider supabase as they provided a much higher connection limit.</p>
             <br/>
-            <h4 className="text-xl font-bold">Big O optimization</h4>
-            <p className="text-left">In order to try and reduce calls to the database for performance, the function to update all the engagment grades was refined from using a nested loop to caclulating the breakpoints ahead of time. Reducing it from 0n2 (quadratic) to 0n (linear) thereby dramatically improving it&apos;s scalability</p>
             <br/>
             <p className="text-left">Last-minute additions to the project included creating a simulated zoom poll prop for demonstration purposes as without a live zoom call to use it on it&apos;s hard to communicate the value of the tool.</p>
             {/* gif showing zoom polls */}
             <div className="h-32 sm:h-96 md:h-[24rem] overflow-hidden relative box-border rounded-2xl mt-2 mb-2 sm:mt-4 sm:mb-4 max-w-screen-2xl">
-                <Image src='/images/intern/zoompolls.gif' alt='Zoom polls animated gif to demostrate feature' fill={true} className="object-scale-down relatrive"/>
+                <Image src='/images/intern/zoompolls.gif' alt='Zoom polls animated gif to demostrate feature' fill={true} unoptimized={true} className="object-scale-down relative"/>
             </div>
+            <h4 className="text-xl font-bold">Big O optimization</h4>
+            <p className="text-left">In order to try and reduce calls to the database for performance, the function to update all the engagment grades was refined from using a nested loop to caclulating the breakpoints ahead of time. Reducing it from 0n2 (quadratic) to 0n (linear) thereby dramatically improving it&apos;s scalability</p>
+            <br/>
             <p className="text-left">To close the project for Christmas I ran a team retro across the whole project with a focus on the positives to raise moral after a challenging few weeks.</p>
             {/* final retro */}
             <div className="h-32 sm:h-96 md:h-[24rem] overflow-hidden relative box-border rounded-2xl mt-2 mb-2 sm:mt-4 sm:mb-4 max-w-screen-2xl">
