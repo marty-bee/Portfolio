@@ -4,7 +4,7 @@ export const portfolioProjObj = {
   projectTitle: "mart.codes",
   // buttonLinks - used to render the link buttons
   buttonLinks: {
-    gitHubLink: "https://github.com/Mart510/Portfolio",
+    gitHubLink: "https://github.com/marty-bee/Portfolio",
     liveLink: 'https://mart.codes/',
   },
   // techStack - used to render the tech stack pills

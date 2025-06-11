@@ -38,7 +38,7 @@ projectPageDataTemplate.js
 as a guide to create a projectPageData.js for your project, this will generate the heading section including the project name, tech stack, and relevant link buttons.
 
 ## Authors
-<a href="https://github.com/Mart510">
-        <img src="https://github.com/Mart510.png" width="100" height="100" alt="Mart510">
+<a href="https://github.com/marty-bee">
+        <img src="https://github.com/marty-bee.png" width="100" height="100" alt="marty-bee">
 </a>
 
