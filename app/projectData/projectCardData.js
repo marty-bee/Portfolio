@@ -1,5 +1,23 @@
 export const projectsData = [
         {
+            "projectTitle": "Intern",
+            "projectDescription": "4 week project to deliver a dashboard powered by Zoom data to help the day to day running of software bootcamps",
+            "image": "/images/project_images/interncoverimage.png",
+            "imageAlt": "Intern project image",
+            "gitHubLink": "https://github.com/Christener19/intern",
+            "liveLink": "https://intern-soc.vercel.app/",
+            "projectLink": '/projects/intern'
+        },
+        {
+            "projectTitle": "mart.codes",
+            "projectDescription": "A portfolio site as a place to host all of my projects. Built as a chance to learn NextJS and Tailwind.",
+            "image": "/images/project_images/martcodeshomepage.png",
+            "imageAlt": "mart.codes homepage",
+            "gitHubLink": "https://github.com/Mart510/Portfolio",
+            "liveLink": "https://mart.codes/",
+            "projectLink": '/projects/portfolio'
+        },
+        {
             "projectTitle": "Stockr",
             "projectDescription": "An exercise in data manipluation using a stock market api",
             "image": "/images/project_images/stockr.png",

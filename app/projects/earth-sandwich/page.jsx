@@ -45,7 +45,7 @@ export default function earthSandwich(){
             </ul>
             <p>To check the maths is behaving correctly I also ran the calculation backwards</p>
             {/* image from repo here */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
                 <Image src='/images/earthSandwich/earthsandwichjustlogging.png' alt='Earth sandwich testing' fill={true} className="object-scale-down relative"/>
             </div>
             <h3 className="text-2xl font-bold">Adding a map to make it visual</h3>
@@ -53,7 +53,7 @@ export default function earthSandwich(){
                 Enter Leaflet, a popular JavaScript library that provides interactive maps. Following the quick start I made a one page file combining the HTML, CSS and JS to establish viablity and get a proof of concept quickly.</p>
 
         {/* Repo image with map */}
-        <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+        <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
                 <Image src='/images/earthSandwich/earthsandwichaddingleaflet.png' alt='Adding a map to the app' fill={true} className="object-scale-down relative"/>
             </div>
         <p>Whilst this works, it relies on users to be able to enter a valid lat/long. This is a pain for users for 3 main reasons.</p>
@@ -69,7 +69,7 @@ export default function earthSandwich(){
             <br/>
             Before starting I needed to plan the expected operations:</p>
             {/* flow diagram goes here loading dark mode in only right now, will set ternery to render depending on user theme */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
                 <Image src='/images/earthSandwich/geocodeflow.png' alt='Geocoding data plan' fill={true} className="object-scale-down relative"/>
             </div>
 
@@ -81,7 +81,7 @@ export default function earthSandwich(){
             <h3 className="text-2xl font-bold">Earth Sandwich</h3>
             <p>As it stands right now, the user can enter a location, use the autocomplete picker for ease and then watch as the map updates in a smooth fashion. The extra animation step makes it far more immersive then a simple reload.</p>
             {/* gif in use goes here */}
-            <div className="h-32 sm:h-96 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
+            <div className="h-32 sm:h-96 md:h-500 overflow-hidden relative box-border rounded-2xl mt-4 mb-4 sm:mt-8 sm:mb-8">
                 <Image src='/images/earthSandwich/earthsarnieautocomp.gif' alt='Earth Sandwich Demo' fill={true} className="object-scale-down relative"/>
             </div>
             <h3 className="text-2xl font-bold">Lessons learnt</h3>
