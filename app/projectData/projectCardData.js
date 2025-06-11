@@ -13,7 +13,7 @@ export const projectsData = [
             "projectDescription": "A portfolio site as a place to host all of my projects. Built as a chance to learn NextJS and Tailwind.",
             "image": "/images/project_images/martcodeshomepage.png",
             "imageAlt": "mart.codes homepage",
-            "gitHubLink": "https://github.com/Mart510/Portfolio",
+            "gitHubLink": "https://github.com/marty-bee/Portfolio",
             "liveLink": "https://mart.codes/",
             "projectLink": '/projects/portfolio'
         },
