@@ -4,7 +4,7 @@ export const projectsData = [
             "projectDescription": "An exercise in data manipluation using a stock market api",
             "image": "/images/project_images/stockr.png",
             "imageAlt": "Stockr returning the stock winners and losers of the day",
-            "gitHubLink": "https://github.com/Mart510/StockR",
+            "gitHubLink": "https://github.com/marty-bee/StockR",
             "liveLink": null,
             "projectLink": '/projects/stockr'
         },
@@ -13,7 +13,7 @@ export const projectsData = [
             "projectDescription": "Find the opposing point on the globe for any location. Working with external API's and leaflet mapping",
             "image": "/images/project_images/earthSandwich.png",
             "imageAlt": "Earth sandwich website screenshot",
-            "gitHubLink": "https://github.com/Mart510/earthSandwich",
+            "gitHubLink": "https://github.com/marty-bee/earthSandwich",
             "liveLink": "https://earth-sandwich.netlify.app/",
             "projectLink": '/projects/earth-sandwich'
         },

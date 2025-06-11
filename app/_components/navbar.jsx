@@ -13,7 +13,7 @@ export default function Navbar({ initialTheme }) {
                 {/* <button className="font-sans pl-2 pr-2 sm:mr-20 hover:scale-105">About</button> */}
                 {/* <button className="font-sans pl-2 pr-2 sm:mr-20 hover:scale-105">Contact</button> */}
                 {/* <button className="font-sans pl-2 pr-2 sm:mr-20 hover:scale-105">CV</button> */}
-                <Link href={'https://github.com/Mart510'} className="flex items-center pl-2 pr-2 font-sans sm:mr-20 hover:scale-105">GitHub</Link>
+                <Link href={'https://github.com/marty-bee'} className="flex items-center pl-2 pr-2 font-sans sm:mr-20 hover:scale-105">GitHub</Link>
                 <Link href={'https://www.linkedin.com/in/martbillings/'} className="flex items-center pl-2 pr-2 
                 sm:mr-20
                 font-sans hover:scale-105">LinkedIn</Link>

@@ -4,7 +4,7 @@ export const earthSandichProjectObj = {
   projectTitle: "Earth Sandwich",
   // buttonLinks - used to render the link buttons
   buttonLinks: {
-    gitHubLink: "https://github.com/Mart510/earthSandwich",
+    gitHubLink: "https://github.com/marty-bee/earthSandwich",
     liveLink: 'https://earth-sandwich.netlify.app/',
   },
   // techStack - used to render the tech stack pills

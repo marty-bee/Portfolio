@@ -4,7 +4,7 @@ export const bootrantProjectObj = {
   projectTitle: "Boot Rant",
   // buttonLinks - used to render the link buttons
   buttonLinks: {
-    gitHubLink: "https://github.com/Mart510/BootRant",
+    gitHubLink: "https://github.com/marty-bee/BootRant",
     liveLink: 'https://bootrantproject.onrender.com/',
   },
   // techStack - used to render the tech stack pills

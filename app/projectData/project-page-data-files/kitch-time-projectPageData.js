@@ -4,7 +4,7 @@ export const kitchtimeProjectObj = {
   projectTitle: "Kitchen Timer",
   // buttonLinks - used to render the link buttons
   buttonLinks: {
-    gitHubLink: "https://github.com/Mart510/StockR",
+    gitHubLink: "https://github.com/marty-bee/StockR",
     liveLink: false,
   },
   // techStack - used to render the tech stack pills
